@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title>Blog app/Admin</title>
+    <link rel='stylesheet' href='styles/reset.css'>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body id="todoapp" class="admin">
+
+	<!-- NAV BAR -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+	      </a>
+	    </div>
+	  </div><!-- container-fluid -->
+	</nav><!-- nav -->
+
+	<!-- BODY -->
+	<div class="col-md-4 todo-col editBox">
+
+		<div class="form-group js-postlist js-edit-box"> </div>
+
+	</div> <!-- Edit section -->
+	<div class="container">
+		<!-- <div class="col-md-2 todo-col">Nav</div> -->
+			<div class="row">
+					<div class="col-md-8 todo-col">
+
+						<ul class="list-group js-todolist">
+							<li class="list-group-item">
+								<span class="glyphicon glyphicon-refresh todo-spinner"></span>
+							</li>
+						</ul>
+
+				<input type="text" class="form-control input-group js-todo-title " placeholder="Title">
+					<textarea class="form-control input-group js-todo-body" placeholder="Blog"></textarea>
+						<button type="button" class="btn btn-primary  todo-addbtn js-add-todo">Add to Blog!</button>
+
+			</div><!-- content -->
+
+
+		</div><!-- row -->
+
+
+	</div><!-- container -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src='javascript/main.js'></script>
+		<!-- <script
+		src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.js'></script>
+ -->
+
+
+</body>
+</html>
